@@ -63,6 +63,7 @@ export const SectionLayouts: React.FC = () => {
   ];
 
   return (
+    <div className={Styles.SectionLayoutsContainers}>
     <div className={Styles.SectionLayoutsContainer}>
       <div className={Styles.SecttionHeaderMain}>
         <div className={Styles.SectionHeader}>
@@ -120,5 +121,6 @@ export const SectionLayouts: React.FC = () => {
         ))}
       </div>
     </div>
+   </div>
   );
 };

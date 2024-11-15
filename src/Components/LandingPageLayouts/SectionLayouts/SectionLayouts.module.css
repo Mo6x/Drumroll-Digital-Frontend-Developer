@@ -1,7 +1,16 @@
+.SectionLayoutsContainers {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: #F7F8FA;
+}
+
 .SectionLayoutsContainer {
-   padding: 20px;
-   max-width: 1200px;
+   padding: 50px;
+   max-width: 1000px;
    margin: 0 auto;
+   background-color: #F7F8FA;
  }
 
  .SecttionHeaderMain{
@@ -20,29 +29,32 @@
  }
  
  .SearchBar {
+  gap: 10px;
    display: flex;
-   justify-content: center;
    align-items: center;
-   gap: 10px;
-   margin-bottom: 20px;
+   border-radius: 20px;
+   border: 1px solid white;
+   justify-content: center;
+   background-color: rgba(255, 255, 255, 0.927);
  }
  
  .SearchInput {
+  width: 100px;
    padding: 10px;
-   border-radius: 20px;
-   border: 1px solid #ddd;
-   width: 150px;
    text-align: center;
+   border-radius: 20px;
+   border: 1px solid #fff;
+   background-color: rgba(255, 255, 255, 0.927);
  }
  
  .SearchButton {
-   padding: 10px 15px;
-   background-color: #ff4500;
    color: #fff;
    border: none;
    border-radius: 50%;
    font-size: 18px;
    cursor: pointer;
+   padding: 5px 10px;
+   background-color: #ff4500;
  }
  
  .SectionTitle {
@@ -58,15 +70,10 @@
    margin-bottom: 20px;
  }
 
-
-
-
- 
- 
  .ApartmentGrid {
+  gap: 20px;
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   gap: 20px;
  }
  
  .ApartmentCard {
@@ -85,9 +92,9 @@
  }
  
  .ImageContainer {
-   position: relative;
    width: 100%;
    overflow: hidden;
+   position: relative;
  }
  
  .ApartmentImage {
