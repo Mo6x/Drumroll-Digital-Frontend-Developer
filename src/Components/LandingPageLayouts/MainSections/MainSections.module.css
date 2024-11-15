@@ -1,0 +1,121 @@
+.MainSectionsContainer {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .MainSectionChild{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+   max-width: 1200px;
+ }
+ 
+ .ContentSection {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+ }
+
+ .MainSectionH2{
+   width: 350px;
+   font-size: 20px;
+   margin-bottom: 10px;
+   color: #222;
+ }
+ 
+ .MainSectionPragrah{
+   width: 550px;
+   font-size: 12px;
+   line-height: 1.6;
+   margin-bottom: 10px;
+ }
+
+ .ImagesSection {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .ImageWrapper {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .MainImage {
+   width: 100%;
+   max-width: 600px;
+   height: auto;
+   border-radius: 10px;
+   object-fit: cover;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .FeaturedApartment {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 300px;
+   border-radius: 10px;
+   background-image: url('../../../assets//apartmentbackground.svg');
+   background-size: cover;
+   background-position: center;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+ }
+ 
+ .TextOverlay {
+   position: absolute;
+   bottom: 20px;
+   left: 20px;
+   color: white;
+   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+ }
+ 
+ .TextOverlay h3 {
+   font-size: 1.5rem;
+   margin: 0;
+ }
+ 
+ .TextOverlay p {
+   font-size: 1rem;
+   margin: 5px 0;
+ }
+ 
+ .DiscoverLink {
+   color: #ffd700; /* Golden color for contrast */
+   font-weight: bold;
+   text-decoration: none;
+ }
+ 
+ .DiscoverLink:hover {
+   text-decoration: underline;
+ }
+ 
+ /* Responsive styles */
+ @media (min-width: 768px) {
+   .MainSectionsContainer {
+     flex-direction: row;
+     gap: 40px;
+   }
+ 
+   .ContentSection {
+     flex: 2;
+   }
+ 
+   .ImagesSection {
+     flex: 1;
+     flex-direction: column;
+     gap: 20px;
+   }
+ 
+   .MainImage {
+     max-width: 100%;
+     width: 100%;
+   }
+ }
+ 

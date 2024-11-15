@@ -1,0 +1,90 @@
+/* Hero Layout Container */
+.HeroLayoutContainer {
+   width: 100%;
+   background-image: url('../../../assets//backgroundimage.jpeg'); 
+   background-size: cover; 
+   background-position: center;
+   background-repeat: no-repeat; 
+   display: flex; 
+   align-items: center; 
+   justify-content: center; 
+   color: #fff; 
+ }
+ 
+ 
+ .HeroLayoutItems {
+   text-align: center;
+   padding: 100px;
+   background: rgba(0, 0, 0, 0.5);
+   border-radius: 10px; 
+ }
+ 
+ .HeroLayoutH1 {
+   font-size: 30px;
+   font-weight: 600;
+   color: #fff;
+ }
+ 
+ .HeroLayoutParagrah {
+   font-size: 11px;
+   font-weight: 400;
+   color: #fff;
+ }
+
+ .HeroLayoutSeachEnginer{
+  gap: 20px;
+  display: flex;
+  padding: 5px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color:  #DFE0E4;
+ }
+
+ .HerorLayoutChild{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+    align-items: flex-start;
+ }
+
+ .LayoutH2{
+   font-size: 12px;
+   font-weight: 700;
+   color: #ffc300;;
+ }
+
+
+ .LayoutH1{
+   color: #232323;
+   font-weight: 700;
+   font-size: 12px;
+ }
+ 
+ .SearchInput {
+   width: 250px;
+   padding: 10px 15px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   outline: none;
+   border-radius: 8px;
+   border: 1px solid #ccc;
+ }
+
+ .SearchButton {
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 50px;
+   padding: 10px 20px;
+   background-color: #ffc300;;
+   transition: background-color 0.3s;
+ }
+ 
+ .SearchButton:hover {
+   background-color: #ffc300;;
+ }
