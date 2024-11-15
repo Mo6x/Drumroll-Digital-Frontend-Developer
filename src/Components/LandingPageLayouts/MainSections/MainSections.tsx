@@ -7,7 +7,9 @@ import Styles from "./MainSections.module.css";
 export const MainSections: React.FC = () => {
   return (
     <div className={Styles.MainSectionsContainer}>
-     <div className={Styles.MainSectionChild}>
+     <div className={Styles.MainSectionChilds}>
+
+
       <div className={Styles.ContentSection}>
         <h2 className={Styles.MainSectionH2}>About Heristays shortlets in Lekki and VI Lagos:</h2>
         <p className={Styles.MainSectionPragrah}>
@@ -36,23 +38,17 @@ export const MainSections: React.FC = () => {
           satisfaction in mind.
         </p>
       </div>
-      <div className={Styles.ImagesSection}>
         <div className={Styles.ImageWrapper}>
           <img
             src={ Apartment } 
             alt="Heristays Interior"
-            className={Styles.MainImage}
+            className={Styles.MainImages}
           />
         </div>
         </div>
-
         <div className={Styles.FeaturedApartment}>
-          <h3>Hottest Apartment</h3>
-          <p>Sigmabase Apartments VI</p>
-          <a href="#" className={Styles.DiscoverLink}>Discover more &gt;</a>
-         
+          <a href="#" className={Styles.DiscoverLink}>Discover more &gt;</a> 
         </div>
-      </div>
     </div>
   );
 };
