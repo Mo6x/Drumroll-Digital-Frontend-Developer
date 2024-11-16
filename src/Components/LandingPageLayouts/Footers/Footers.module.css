@@ -1,54 +1,103 @@
 .FootersContainer {
+   gap: 20px;
    display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: #f8f9fc;
-   padding: 20px;
-   border-radius: 8px;
-   max-width: 600px;
+   padding: 100px;
    margin: 0 auto;
+   border-radius: 8px;
+   align-items: center;
+   justify-content: center;
+   background-color: #f8f9fc;
  }
  
+.FoooterChildItems{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
 
- 
+.FooterContainerItems{
+   width: 420px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.FooterH1{
+   font-size:25px;
+   font-weight: 600;
+   margin-bottom: 40px;
+}
+
+.FooterParagrah{
+   font-size: 15px;
+   margin-bottom: 20px;
+}
+
+.FooterIcon{
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.FooterNumbers{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.FooterIconContainer{
+   gap: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.FooterLogonItems{
+   gap: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 10px;
+}
+
+.FooterLogo{
+   font-size: 30px;
+}
+
  .Form {
    width: 100%;
-   max-width: 600px;
+   max-width: 500px;
    display: flex;
    flex-direction: column;
  }
  
  .InputRow {
    display: flex;
-   gap: 15px;
+   gap: 10px;
    margin-bottom: 15px;
  }
  
  .Input {
    flex: 1;
    padding: 10px;
-   border: 1px solid #e0e0e0;
    border-radius: 8px;
    font-size: 14px;
    color: #333;
+   border: 1px solid #e0e0e0;
  }
  
  .Textarea {
    width: 100%;
-   height: 150px;
+   height: 120px;
    padding: 10px;
-   border: 1px solid #e0e0e0;
    border-radius: 8px;
    font-size: 14px;
    color: #333;
    resize: none;
    margin-bottom: 15px;
+   border: 1px solid #e0e0e0;
  }
  
  .Button {
-   width: 100%;
+   width: 200px;
    padding: 12px;
-   background-color: #ff6600; /* Orange color */
    color: #fff;
    font-size: 16px;
    font-weight: bold;
@@ -56,10 +105,21 @@
    border: none;
    border-radius: 8px;
    cursor: pointer;
+   background-color: #ff6600;
    transition: background-color 0.3s ease;
  }
  
  .Button:hover {
-   background-color: #e55a00; /* Darker orange on hover */
+   background-color: #e55a00;
  }
  
+ .FooterLists{
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   background-color: #f8f9fc;
+   justify-content: space-around;
+   border-top: 1px solid #3333332a;
+ }

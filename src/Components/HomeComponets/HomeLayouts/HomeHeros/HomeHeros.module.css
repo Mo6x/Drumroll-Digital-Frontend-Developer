@@ -1,0 +1,66 @@
+.HomeHerosContainer{
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+}
+
+.HomeHeroChildItems{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+   cursor: pointer;
+   max-width: 1000px;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.HomeHeroH51{
+   cursor: pointer;
+   margin-top: 2px;
+}
+
+.HomeHeroItems{
+   gap: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+}
+
+.HomeHeroChild{
+   gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeHeroImages1{
+   gap: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   max-width: 1000px;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.HomeHeroImagesimg{
+   width: 450px;
+   height: 550px;
+}
+
+.HomeHeroImageCild{
+   gap: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.HomeHeroImageCildImge{
+   width: 450px;
+}

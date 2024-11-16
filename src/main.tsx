@@ -2,9 +2,8 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HomeDashboards } from "./Components/HomeComponets/HomeDashboards/HomeHomeDashboards";
 import queryClient from "./queryClient.ts"; 
-
-
 import App from "./App.tsx";
 import "./index.css";
 
@@ -18,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <Router>
             <Routes>
               <Route path="/"element={<App />} />
+              <Route path="/HomeDashboards"element={<HomeDashboards />} />
             </Routes>
           </Router>
         </QueryClientProvider>
